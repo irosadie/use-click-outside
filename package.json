@@ -1,0 +1,27 @@
+{
+	"name": "@binarydev/use-click-outside",
+	"version": "1.0.3",
+	"description": "React hook to detect clicks outside a given element",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsup"
+	},
+	"keywords": [
+		"react",
+		"hook",
+		"click-outside",
+		"react-hook"
+	],
+	"author": "Imron Rosadi",
+	"license": "MIT",
+	"peerDependencies": {
+		"react": ">=17.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^19.1.4",
+		"tsup": "^7.2.0",
+		"typescript": "^5.0.0"
+	}
+}
